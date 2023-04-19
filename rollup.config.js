@@ -15,8 +15,15 @@ const build = {
     sourcemap: true,
     format: 'es',
     file: 'dist/zero-md.min.js'
+
+    // file: 'dist/zeromd.js',
+    // format: 'umd',
+    // name: 'ZeroMD',
+    // exports: 'named',
+    // sourcemap: true,
+    // minify: false
   },
-  plugins: [replace({ $VERSION: pkg.version, delimiters: ['', ''] }), resolve(), terser()]
+  // plugins: [replace({ $VERSION: pkg.version, delimiters: ['', ''] }), resolve(), terser()]
 }
 
 const buildLegacy = {
