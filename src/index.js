@@ -1,4 +1,4 @@
-// import IDfy from './utils/IDfy'
+import IDfy from './utils/IDfy'
 
 class ZeroMd extends HTMLElement {
   get src() {
