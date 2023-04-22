@@ -720,3 +720,4 @@ class ZeroMd extends HTMLElement {
 }
 
 customElements.define('zero-md', ZeroMd)
+console.log('zero-md v1.0.0-rc.1')
