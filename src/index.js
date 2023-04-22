@@ -1,6 +1,6 @@
-import IDfy from './utils/IDfy'
+// import IDfy from './utils/IDfy'
 
-export class ZeroMd extends HTMLElement {
+class ZeroMd extends HTMLElement {
   get src() {
     return this.getAttribute('src')
   }
